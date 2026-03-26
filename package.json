@@ -1,0 +1,28 @@
+{
+  "name": "openclaw-weex-api-skill",
+  "version": "1.0.0",
+  "description": "OpenClaw agent skill for WEEX exchange REST API V3 — market data, account management, and order trading",
+  "keywords": [
+    "openclaw",
+    "openclaw-skill",
+    "weex",
+    "crypto",
+    "trading",
+    "exchange",
+    "api"
+  ],
+  "author": "gvgv.li",
+  "license": "MIT",
+  "openclaw": {
+    "type": "skill",
+    "skillId": "weex-api",
+    "skillPath": ".",
+    "minVersion": "2026.0.0"
+  },
+  "scripts": {
+    "test": "python scripts/weex_auth.py"
+  },
+  "engines": {
+    "python": ">=3.10"
+  }
+}
